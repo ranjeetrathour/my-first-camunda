@@ -7,10 +7,10 @@ import org.springframework.context.ConfigurableApplicationContext;
 @SpringBootApplication
 public class Application {
 
-  public static void main(String... args) {
+    public static void main(String... args) {
 
-    ConfigurableApplicationContext run = SpringApplication.run(Application.class, args);
-//    System.out.println(run.getAliases());
-  }
+        SpringApplication.run(Application.class, args);
+
+    }
 
 }
